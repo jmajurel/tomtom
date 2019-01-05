@@ -26,7 +26,7 @@ class Contact extends Component {
 
   render() {
     return (
-      <div className='Contact'>
+      <div className='Page Contact'>
         <h3>Contactez moi</h3>
 	<form onSubmit={this.handleSubmit}>
 	  <div className='form-group'>
@@ -43,7 +43,7 @@ class Contact extends Component {
 	  </div>
 	  <div className='form-group'>
 	    <label htmlFor='message'>Message</label>
-	    <textarea className='form-control' onChange={this.handleUpdate} id='message' name='message' rows='10'></textarea>
+	    <textarea className='form-control' onChange={this.handleUpdate} id='message' name='message' rows='8'></textarea>
 	  </div>
 	  <button type='submit' className='btn btn-primary'>Send</button>
 	</form>

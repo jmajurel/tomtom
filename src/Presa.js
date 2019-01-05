@@ -2,7 +2,7 @@ import React from 'react';
 import './Presa.css';
 
 const Presa = props => ((
-  <div className='Presa'>
+  <div className='Page Presa'>
     <h1>Bienvenue sur mon site</h1>
     <h2>Thomas Garcia</h2>
     <div className='Intro'>

@@ -4,3 +4,10 @@
   margin: auto;
   text-align: center;
 }
+
+@media only screen and (max-width: 800px) {
+  .Contact form {
+    width: 80%;
+  }
+}
+

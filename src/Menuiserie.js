@@ -4,7 +4,7 @@ import WoodWork from "./images/WoodWork.jpg";
 import Stump from './images/stump.jpg';
 
 const Menuiserie = props => ((
-  <div className='Menuiserie'>
+  <div className='Page Menuiserie'>
     <h2>Mon metier, la menuiserie</h2>
     <div className='Menuiserie-Presa'>
       <div className='blockMetier'>
