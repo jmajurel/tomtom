@@ -1,0 +1,28 @@
+h1 {
+  text-align: center;
+}
+
+.Presa {
+  height: 100vh;
+  border: solid red 2px;
+  padding-top: 30px;
+}
+
+.Intro {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-around;
+  margin-top: 5%;
+}
+
+.Intro-text {
+  width: 40%;
+  font-size: 1.4em;
+}
+
+.Presa img {
+  border: 20px solid lightgrey;
+  border-radius: 100%;
+  width: 400px;
+  height: 400px;
+}

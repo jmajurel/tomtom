@@ -1,0 +1,55 @@
+.Menuiserie {
+  border: 2px orange solid;
+  height: 100vh;
+  padding: 20px;
+}
+
+h2,h3 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.6em;
+}
+
+.Menuiserie-Presa {
+  display: flex;
+  height: 100%;
+  justify-content: space-around;
+}
+
+.blockMetier {
+  padding-top: 10px;
+  border: yellow 2px solid;
+  width: 40%;
+  height: 60%;
+  font-size: 1.3em;
+  text-align: center;
+}
+
+.blockMetier p {
+}
+
+.woodTypes {
+  display: flex;
+}
+
+.woodItem {
+  text-align: center;
+  width: 33%;
+  height: inherite;
+  background-image: url('./images/stump.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.Menuiserie img {
+  border-radius: 2px;
+  box-shadow: 0.4px 0.4px 0.8px grey;
+}
+

@@ -1,0 +1,28 @@
+.Nav {
+  height: 60px;
+  border: purple solid 2px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 20px;
+  font-size: 1.1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+a {
+  font-size: 1.3em;
+  text-decoration: none;
+  opacity: 0.6;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+  transition: color linear 0.3s;
+}
+
+a:hover {
+  transition: opacity linear 0.3s;
+  opacity: 1;
+}
