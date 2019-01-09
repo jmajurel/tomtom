@@ -3,7 +3,6 @@ h1 {
 }
 
 .Presa {
-  border: solid red 2px;
   padding: 20px;
 }
 
@@ -21,6 +20,10 @@ h1 {
     flex-direction: column;
     align-items: center;
     font-size: 1em;
+  }
+
+  .Presa img {
+    order: -1;
   }
 }
 

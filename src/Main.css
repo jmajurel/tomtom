@@ -4,4 +4,6 @@
 
 .Page {
   height: 100vh;
+  display: block;
+  border: 2px orange solid;
 }
